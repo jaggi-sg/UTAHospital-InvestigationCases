@@ -11,9 +11,9 @@
 
         <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
                            url="jdbc:mysql://localhost/project1"
-                           user="root"  password="Jaggi@830"/>
+                           user="root"  password=""/>
 
-        <form action="WebServlet" method="POST">
+        <form action="/WebServlet" method="POST">
             <input type="checkbox" name="abc" value="age"/> Age </br>
             <input type="checkbox" name="abc"  value="sex"/> Sex </br>
             <input type="checkbox" name="abc"  value="race"/> Race </br>

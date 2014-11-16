@@ -1,9 +1,3 @@
-<%-- 
-    Document   : cusum
-    Created on : Aug 4, 2014, 4:59:45 PM
-    Author     : VenkataSrinivas
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

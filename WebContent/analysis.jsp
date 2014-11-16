@@ -11,7 +11,7 @@
 
         <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
                            url="jdbc:mysql://localhost/project2"
-                           user="root"  password="Jaggi@830"/>
+                           user="root"  password=""/>
 
         <sql:query dataSource="${snapshot}" var="result1">
             SELECT distinct age from maindata order by age asc;
